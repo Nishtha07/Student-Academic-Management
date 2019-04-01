@@ -1,0 +1,63 @@
+a{text-decoration:none;}
+.textOverImage{
+    position:relative;
+    width:220px;
+    height:200px;
+    float:left;
+    background-size:100%;
+    background-position:center;
+    transition:0.5s;
+    overflow:hidden;
+    border-radius:4px;
+    box-shadow:0 0 4px #000;
+  }
+  
+  .textOverImage:hover{
+    background-size:110%;
+  }
+  
+.textOverImage:before{
+  position:absolute;
+    top:0;
+    bottom:15%;
+    left:0;
+    right:0;
+   transform:translateY(90%);
+    background-color:rgba(0,0,0,0.3);
+    color:#fff;
+    padding:0 8px;
+    content:attr(data-title);
+    transition:0.5s 0.1s;
+    color:#fff;
+    font-weight:bold;
+    font-size:1.5em;
+}
+
+  .textOverImage:after{
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    color:#fff;
+    padding:8px;
+    content:attr(data-text);
+    transition:0.5s;
+    padding-top:2em;
+    margin-top:8px;
+    transform:translateY(100%);
+    opacity:0;
+  }
+  
+  .textOverImage:hover:after{
+    transform:translateY(0);
+    transition:0.5s 0.1s;
+    opacity:1;
+  }
+.textOverImage:hover:before{
+    transform:translateY(0);
+    padding:8px;
+    background-color:rgba(0,0,0,0.9);
+    height: 200px;
+    transition:0.5s;
+}
