@@ -1,0 +1,94 @@
+.c1{
+    background: url("https://amp.businessinsider.com/images/598cca8fd9a6a01c008b46d0-2732-1366.jpg");
+width: 100%;
+    height: 80%;
+     position: relative;
+    display: table;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+.c3 .c2{
+    
+     background: black;
+    display: table-cell;
+            
+width: 95%;
+      height: 100%;
+    vertical-align: middle;
+    max-width: 1000px;
+}
+
+.wrapper1{
+	 background: url("https://wallpaper-house.com/data/out/7/wallpaper2you_188525.jpg");
+ }
+ 
+.wrapper{
+    position: relative;
+      width: 100%;
+    height: 1100px;
+    background: url("kk.jpg");
+    display: table;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.wrapper .inner{
+    background: rgba(0,0,0,0.6); 
+
+    display: table-cell;
+            
+width: 95%;
+      height: 150%;
+    vertical-align: middle;
+    max-width: 1000px;
+    
+}
+.content{
+    background:rgba(0,0,255,0.2); ;
+    width: 70%;
+    height: 50%;
+    text-align: center;
+    margin: 0 auto;
+        
+    color: #03C4EB;
+}
+.c3{
+    color: lightgray;
+    margin: -9em 0 7em 2em;
+}
+ .c3:hover{
+    color: #03c4eb;
+    margin: 2em 0 2em 2em;
+}
+.content h2{color: :#03C4EB;
+      font-family: font-family: Lucida Console, Courier, monospace;
+      text-shadow: 0 0 300px #000;
+    font-size: 4.7vw;
+    font-weight:850; 
+     
+ }
+.content p{color: aliceblue;font-size: 16px; font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif"; margin: 20px 0;}
+ 
+h2{
+    padding-bottom:  30px;
+
+}
+.c4{
+    margin:12em 0 0 6em;
+    background: rgba(0,0,0,0.5);
+    width:35%;
+    height: 60%;
+}
+.c5{
+    float:left;
+    margin:-20.5em 0 0 33em;
+    background: rgba(0,0,0,0.5);
+    width:35%;
+    height: 60%;
+}
+   .fade {
+  margin: 50px;
+  padding: 50px;
+  background-color: lightgreen;
+  opacity: 0.9;
+}
